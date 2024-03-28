@@ -1,0 +1,121 @@
+body{
+  justify-content:center;
+  align-content:center;
+  display:flex;
+  margin:0 auto;
+}
+.roof {
+  width:200px;
+  height:0px;
+  border-top: 80px solid transparent;
+  border-bottom: 50px solid darkred;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+}
+
+.chimney {
+  width: 50px;
+  height:70px;
+  background-color:darkred;
+  position:relative;
+  right:-150px;
+  top:-35px;
+}
+  
+.wall { 
+  width: 500px;
+  height: 200px;
+  background-color: #9b4c32;
+  display:flex;
+}
+
+.door {
+  margin-left:30%;
+  margin-right:10%;
+  margin-top:10%;
+  width:0px;
+  height:0px;
+  border-top: 60px solid brown;
+  border-bottom: 60px solid brown;
+  border-left: 40px solid darkred;
+  border-right: 40px solid darkred;
+}
+
+.windowBorder {
+  display:flex;
+  position:relative;
+  top:30%;
+  right:-10%;
+  width: 0px;
+  height:0px;
+  background-color: darkred;
+  border-top: 35px solid brown;
+  border-bottom: 35px solid brown;
+  border-left: 35px solid darkred;
+  border-right: 35px solid darkred;
+}
+
+.window { 
+  top:-25px;
+  left:-25px;
+  position:relative;
+  width:0px;
+  height:0px;
+  background-color:lightblue;
+  border-top:25px solid lightskyblue;
+  border-bottom:25px solid lightskyblue;
+  border-left:25px solid lightblue;
+  border-right:25px solid lightblue;
+}
+
+
+.windowDoor { 
+  top:-50px;
+  left:-30px;
+  position:relative;
+  width:0px;
+  height:0px;
+  background-color:lightblue;
+  border-top:25px solid #804000;
+  border-bottom:25px solid #804000;
+  border-left:30px solid #A18262;
+  border-right:30px solid #A18262;
+}
+
+.nock {
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  background-color:black;
+  top:-105px;
+  right:-20px;
+  position:relative;
+  display:flex;
+}
+
+.ladder {
+  width:100px;
+  height:15px;
+  background-color:#9c9c9c;
+  position:relative;
+  top:-50px;
+  left:-50px;
+}
+
+
+.ladder2 {
+  width:150px;
+  height:15px;
+  background-color:#828282;
+  position:relative;
+  top:-50px;
+  left:-75px;
+}
+
+.grass {
+  left:-550px;
+  width:164%;
+  height:100px;
+  background-color:green;
+  position:absolute;
+}
